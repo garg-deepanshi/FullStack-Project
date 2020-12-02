@@ -8,6 +8,8 @@ const cartTotal = document.querySelector(".cart-total");
 const cartContent = document.querySelector(".cart-content");
 const productsDOM = document.querySelector(".products-center");
 
+
+//************ *ADD HERE**************************
 let cart = [];
 
 class Products{
