@@ -38,12 +38,17 @@ body {
   justify-content: space-between;
   padding: 0 1.5rem;
 }
+#image{
+  align-items: center;
+  padding-left: 300px;
+}
 .nav-icon {
   font-size: 1.5rem;
 }
 .cart-btn {
   position: relative;
   cursor: pointer;
+  align-items: right;
 }
 .cart-items {
   position: absolute;
@@ -201,8 +206,14 @@ body {
     width: 30vw;
     min-width: 450px;
   }
+ 
 }
-
+@media screen and (max-width: 768px){
+#image{
+  align-items: center;
+  padding-left: 20px;
+}
+}
 .close-cart {
   font-size: 1.7rem;
   cursor: pointer;
